@@ -1,0 +1,117 @@
+
+
+/* `xxl` applies to x-large devices (large desktops, less than 1400px) */
+@media (max-width: 1399.98px){
+  .container{
+    width: 1140px;
+  }
+}  
+ 
+  /* `xl` applies to large devices (desktops, less than 1200px) */
+  @media (max-width: 1199.98px){
+    .container{
+      width: 960px;
+    }
+    .protfolio .protfolio-gelary div{
+        width: calc((100% / 3) - (60px / 3));
+    }
+    .technology .technology-icopns img{
+       width: calc((100% / 4) - (60px / 4));
+    }
+
+  } 
+  
+  /* `lg` applies to medium devices (tablets, less than 992px) */
+  @media (max-width: 991.98px) {
+    .container{
+      width: 720px;
+    }
+    .head .menu{
+      display: none;
+    }
+    .head .btn{
+      margin-left: auto;
+    }
+    .banner .banner-img{
+      display: none;
+    }
+    .banner .banner-text{
+      width: 100%;
+      margin-bottom: 30px;
+    }
+    .about .container{
+      flex-wrap: wrap;
+    }
+    .about .about-img{
+  width: 100%;
+    order: 2;
+    margin-top: 50px;
+
+  }
+.about .about-text{
+  width: 100%;
+  order: 1;
+  padding-left: 0;
+ 
+  }
+  .service .services-items .service-items-box{
+    width: calc((100% / 2) - (30px / 2));
+  }
+  .protfolio .protfolio-gelary div{
+        width: calc((100% / 2) - (30px / 2));
+    }
+     .contact .contact-form .contact-address{
+      display: none;
+    }
+    .contact .contact-form form{
+      width: 100%;
+    }
+    .technology .technology-icopns img{
+       width: calc((100% / 3) - (45px / 3));
+    }
+    .footer .footer-box{
+      flex-wrap: wrap;
+    }
+    
+
+    
+}  
+
+
+  
+  /* `md` applies to small devices (landscape phones, less than 768px) */
+  @media (max-width: 767.98px) {
+    .container{
+      width: 540px;
+    }
+     .service .services-items .service-items-box{
+    width: 100%;
+  }
+  .protfolio .protfolio-gelary div{
+        width: 100%;
+    }
+    .contact{
+     margin: 0 10px;
+    }
+    .technology .technology-icopns img{
+       width: calc((100% / 2) - (30px / 2));
+       padding: 0 10px;
+    }
+   
+  }
+
+ /* `sm` applies to x-small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  .container{
+    width: 100%;
+  } 
+   .banner .banner-text{
+    margin-left: 30px;
+   }
+   .protfolio .protfolio-menu{
+    margin-left: 30px;
+   }
+}
+
+
+
